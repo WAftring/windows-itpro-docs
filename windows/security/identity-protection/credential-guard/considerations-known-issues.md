@@ -202,7 +202,7 @@ This is a known limitation of Windows Azure Virtual Machines. When an Azure VM e
 
 For additional details, please see:
 
-- [TPM Clearing Considerations](considerations-known-issues.md#TPM-clearing-considerations)
+- [TPM Clearing Considerations](considerations-known-issues.md#tpm-clearing-considerations)
 - [States and billing status of Azure Virtual Machines](/azure/virtual-machines/states-billing#power-states-and-billing)
 
 ### Issues with non-Microsoft applications
