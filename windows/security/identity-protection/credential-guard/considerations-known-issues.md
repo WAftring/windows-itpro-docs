@@ -196,6 +196,15 @@ MS-CHAP and NTLMv1 are relevant to the SSO breakage after the Windows 11, versio
   :::column-end:::
 :::row-end:::
 
+### Windows Azure IaaS Virtual Machines Lose CredGuard Protected Data After Deallocation
+
+This is a known limitation of Windows Azure Virtual Machines. When an Azure VM enters a deallocated state, the underlying hardware is released. Consequently, the keys protected by the TPM become inaccessible, rendering any data protected by those keys inaccessible as well.
+
+For additional details, please see:
+
+- [TPM Clearing Considerations](considerations-known-issues.md#TPM-clearing-considerations)
+- [States and billing status of Azure Virtual Machines](/azure/virtual-machines/states-billing#power-states-and-billing)
+
 ### Issues with non-Microsoft applications
 
 The following issue affects MSCHAPv2:
